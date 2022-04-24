@@ -1,0 +1,27 @@
+.slider-section .title{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+.slider-card{
+  position: relative;
+}
+.slider-card .portfolio-links{
+  width:50px !important;
+  height:50px !important;
+  background: #6c63ff;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .slider-card .portfolio-links a i{
+   color:white;
+ 
+  }
+ .slider-card .portfolio-links{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+ }

@@ -1,0 +1,40 @@
+.media-block{
+  display: flex;
+  align-items: center;
+  gap:2rem;
+  margin: 4rem 0;
+}
+.media-block-hed{
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.media-block-desc{
+  font-size: 1.2rem;
+}
+.media-block-img{
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.blog-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  margin: 4rem 0;
+}
+.card-block{
+  background: #ffffff4f;
+  border-radius: 1rem;
+  border: 1px solid white;
+  overflow: hidden;
+}
+.card-block-body{
+  padding: 2rem;
+}
+.card-block-hed{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.card-block-desc{
+  font-size: 1rem;
+}
