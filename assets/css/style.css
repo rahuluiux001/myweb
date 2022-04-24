@@ -59,7 +59,7 @@ background: #f7f7f7;
 .Work-block .portfolio-links{
  width:50px !important;
  height:50px !important;
- background: #6c63ff;
+ background: #440707;
  border-radius: 50px;
  display: flex;
  justify-content: center;
@@ -121,7 +121,7 @@ background: white;
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #6c63ff;
+  background: #440707;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -133,7 +133,7 @@ background: white;
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #6c63ff;
+  background: #440707;
   color: #fff;
 }
 .back-to-top.active {
@@ -160,7 +160,7 @@ background: white;
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #6c63ff;
+  border: 6px solid #440707;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -272,7 +272,7 @@ background: white;
 }
 .nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
   color: #fff;
-  background: #6c63ff;
+  background: #440707;
 }
 .nav-menu a:hover span, .nav-menu .active span, .nav-menu .active:focus span, .nav-menu li:hover > a span {
   color: #fff;
@@ -315,7 +315,7 @@ background: white;
 }
 .mobile-nav-active .mobile-nav-toggle {
   color: #fff;
-  background-color: #6c63ff;
+  background-color: #440707;
 }
 
 /*--------------------------------------------------------------
@@ -364,17 +364,17 @@ background: white;
   font-size: 40px;
   font-weight: 700;
   line-height: 56px;
-  color: #45505b;
+  color: #000000;
 }
 #hero p {
-  color: #45505b;
+  color: #000000;
   margin: 15px 0 0 0;
   font-size: 50px;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
 }
 #hero p span {
-  color: #6c63ff;
+  color: #440707;
   letter-spacing: 1px;
 }
 #hero .social-links {
@@ -389,7 +389,7 @@ background: white;
   transition: 0.3s;
 }
 #hero .social-links a:hover {
-  color: #6c63ff;
+  color: #440707;
 }
 @media (max-width: 992px) {
   #hero {
@@ -427,7 +427,7 @@ background: white;
 }
 #footer strong a {
   text-decoration: none;
-  color:#6c63ff;
+  color:#440707;
 }
 #footer p {
   font-size: 15;
@@ -442,7 +442,7 @@ background: white;
 #footer .social-links a {
   font-size: 14px;
 display: flex;
-background: #6c63ff;
+background: #440707;
 color: #fff;
 border-radius: 50%;
 margin-right: 5px;
