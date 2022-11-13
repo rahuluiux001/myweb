@@ -1,0 +1,40 @@
+.absolute-menus{
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    bottom: 50px;
+    background: #f2f1f5;
+    padding: 1rem;
+    border-radius: 10px;
+    list-style: none;
+}
+.menu-icon{
+  fill: #0e0065;
+  width: 24px;
+  height: 24px;
+}
+.menu-text{
+  color:#0e0065;}
+.menu-btns{
+  background: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 500;
+  box-shadow: 1px 1px 20px #0000000d;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menu-btns:focus{
+  box-shadow:none;
+}
+.menu-btns:hover .menu-icon,.menu-btns:hover .menu-text{
+  color:#140288;
+  fill:#140288;
+}
+

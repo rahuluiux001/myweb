@@ -1,7 +1,11 @@
 legend, label, input, ul, li{margin: 0; padding: 0;}
 ul,li{list-style: none;}
 a{ text-decoration: none;}
-
+.navbar-brand .logo{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0e0065;
+}
 .input-toggler{ display: none;}
 .menu-toggler{  position: absolute;
   right: 100px;

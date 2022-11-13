@@ -1,0 +1,17 @@
+.common-navigation{
+    justify-content: center;
+    margin-bottom: 2.5rem !important;
+   }
+   .common-navigation li{
+    
+  }
+  .common-navigation li .common-nav-link{
+    background: transparent;
+    border:none;
+    font-weight: 500;
+    color: #0d006590;
+  }
+  .common-navigation li .common-nav-link.active{
+    background: transparent;
+    color: #0e0065;
+  }

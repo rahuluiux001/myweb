@@ -1,17 +1,4 @@
-.banner-wrapper{
 
-}
-.banner-caption{
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-top: 2rem;
-}
-.banner-desc{
-  font-size: 1.5rem;
-  font-weight: 100;
-  margin: 2rem 0;
-  opacity: 0.5;
-}
 
 
 .skills-wrapper{
@@ -35,26 +22,28 @@
 }
 .slill-grid{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   place-content: center;
   place-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 .grid-item{
   width: 100%;
-  padding: 1rem 1rem;
+  padding: 2rem 1rem;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 0.3rem;
   box-shadow: 0 0 41px #0000000f;
   border-radius: 10px;
   justify-content: center;
+  text-align: center;
+  height: 100%;
 }
 .grid-item .item-title{
   font-size: 0.9rem;
-  margin: 2rem 0;
-  text-transform: uppercase;
   font-weight: 600;
+  text-align: center;
 }
 
 @media (max-width: 1399.98px) { 
