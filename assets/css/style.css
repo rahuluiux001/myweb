@@ -46,8 +46,9 @@ body {
 }
 
 #hero p{
-  color:rgb(14 0 101 / 50%);
+  color:rgb(14 0 101 / 80%);
   font-size: 1.2rem;
+  font-weight: 500;
 }
 #hero:before {
   content: "";
