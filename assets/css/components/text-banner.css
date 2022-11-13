@@ -5,6 +5,12 @@
    .banner-desc{
     width: 600px;
     margin: auto;
+    color: #0d006590;
+   }
+   .banner-caption{
+    color: #0e0065;
+    font-size: 1.5rem;
+    font-weight: 600;
    }
    @media (max-width: 767.98px) {
     .banner-desc{
