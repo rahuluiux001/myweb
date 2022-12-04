@@ -5,12 +5,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
     bottom: 50px;
-    background: #f2f1f5;
+    background: #ffffff;
     padding: 1rem;
     border-radius: 10px;
     list-style: none;
+    box-shadow: 1px 1px 72px #0000000f;
 }
 .menu-icon{
   fill: #0e0065;
@@ -20,15 +20,18 @@
 .menu-text{
   color:#0e0065;}
 .menu-btns{
-  background: #ffffff;
   font-size: 0.8rem;
   font-weight: 500;
-  box-shadow: 1px 1px 20px #0000000d;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-right: 1px solid #00000014;
+
+}
+.menu-items:last-child .menu-btns{
+  border: none;
 }
 .menu-btns:focus{
   box-shadow:none;
