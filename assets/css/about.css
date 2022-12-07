@@ -35,11 +35,9 @@
   flex-direction: column;
   align-items: center;
   gap: 0.3rem;
-  box-shadow: 0 0 41px #0000000f;
-  border-radius: 10px;
   justify-content: center;
-  text-align: center;
   height: 100%;
+  border: 1px solid #f0f0f0;
 }
 .grid-item .item-title{
   font-size: 0.9rem;

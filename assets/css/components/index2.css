@@ -1,0 +1,154 @@
+.wrapper{
+    max-width:1200px;
+    margin: auto;
+    height:100%;
+}
+
+
+
+
+.outer{
+    width:400px;
+    background-color: rgb(76, 28, 220);
+    height:400px;
+    overflow:hidden;
+    border-radius:50%;
+    display:flex}
+  .element{
+    font-size: 1.5rem;
+    color: white;
+    opacity: 0;
+    transition: all ease 0.3s;
+  }
+  .left{
+    width:49%;
+    margin-left:0;margin-right:auto;}
+  
+  
+  
+  .left01,.left02,.left03,.left04,.left05,.left06,.left07,.left08,.left09{
+    position:relative;
+    animation-name: left;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+  }
+  .left09{animation-delay:8s;}
+  .left08{animation-delay:7s;}
+  .left07{animation-delay:0s;}
+  .left06{animation-delay:1s;}
+  .left05{animation-delay:2s;}
+  .left04{animation-delay:3s;}
+  .left03{animation-delay:4s;}
+  .left02{animation-delay:5s;}
+  .left01{animation-delay:6s;}
+  /* right */
+  .right{
+    width:50%;
+    margin-left:auto;margin-right:0;
+  }
+  .right p{
+    text-align: right;
+  }
+  .right01,.right02,.right03,.right04,.right05,.right06,.right07,.right08{
+    top:-10px;
+    position:relative;
+    animation-name: right;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+  }
+  .right08{animation-delay:0s;}
+  .right07{animation-delay:1s;}
+  .right06{animation-delay:2s;}
+  .right05{animation-delay:3s;}
+  .right04{animation-delay:4s;}
+  .right03{animation-delay:5s;}
+  .right02{animation-delay:6s;}
+  .right01{animation-delay:7s;}
+  @keyframes left {
+    from {
+      top:-10px;
+      left:0;
+      opacity:1;
+      transition: all ease 0.3s;
+    }
+      to {
+        top:400px;
+        left:0;
+        opacity:1;
+        transition: all ease 0.3s;
+      }
+  }
+  @keyframes right {
+    from {
+      top:-10px;
+      right:0;
+      opacity:1;
+      transition: all ease 0.3s;
+    }
+    to {
+      top:400px;
+      right:0;
+      opacity:1;
+      transition: all ease 0.3s;
+    }
+  }
+
+
+
+
+
+.header{
+
+}
+.header-grid{
+    padding: 1rem 0;
+}
+.logo-img{
+    width: 30px;
+}
+
+.banner{
+    height: 90vh;
+}
+.banner-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    place-items: center;
+    padding: 8rem 0;
+}
+.banner-left
+{
+
+}
+.banner-heading{
+    font-size: 68px;
+    margin: 0;
+}
+.cv-download-btn{
+    border: 2px dashed rgba(0, 0, 0, 0.3);
+    background-color: transparent;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+.cv-download-btn>.download-img{
+    margin-right: 10px;
+    width: 30px;
+}
+
+@media (max-width:576px){
+    .wrapper{padding: 2rem;}
+    .banner-grid{grid-template-columns: 1fr;gap: 3rem;padding: 5rem 0;}
+    .banner-heading {
+        font-size: 36px;text-align: center;
+    }
+    .cv-download-btn{
+        margin-left: auto;margin-right: auto;
+    }
+    .outer {
+        width: 300px;
+        height: 300px;}
+}
