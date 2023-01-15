@@ -1,0 +1,22 @@
+.main-wrapper{
+    width: 100%;
+    display: flex;
+}
+.aside-menu-block{
+    width: 100px;
+}
+.aside-content{
+    left: 0;
+    position: fixed;
+    background: #ffffff;
+    border-right: 1px solid #0000000a;
+    top: 0;
+    height: calc( 100vh - 82px);
+    padding: 1rem;
+    width: inherit;
+  }
+.content-block{
+width: calc(100vw - 100px);
+padding: 0 3rem;
+}
+

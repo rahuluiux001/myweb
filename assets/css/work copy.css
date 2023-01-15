@@ -1,8 +1,6 @@
 
 /* work page */
-.container-innerPage{
-  max-width: 850px;
-  margin: auto;}
+
 
  .work-card{
   display: flex;
@@ -64,7 +62,9 @@ font-weight: 700;
  }
 
  
-
+.container-innerPage{
+  max-width: 850px;
+  margin: auto;}
 
   @media (max-width: 575.98px) {
     .work-card {

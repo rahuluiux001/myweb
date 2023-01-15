@@ -4,7 +4,7 @@ body {
   color: #0e0065;
 
   background-color:#ffffff;
-  max-width:1200px;
+  /* max-width:1200px; */
   margin: auto;
 }
 
@@ -12,6 +12,8 @@ body {
 .social-links {
   display: flex;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .social-links a {
   font-size: 24px;
@@ -25,12 +27,14 @@ body {
   color: #6c63ff;
 }
 #hero {
-  height: calc(100vh - 100px);
+  height: 100vh;
 }
 .profile-img-box{
   width: 50px;
   border-radius: 5px;
   overflow: hidden;
+  display: block;
+  margin: auto;
 }
 .profile-img{
   display: block;
@@ -46,9 +50,9 @@ body {
 }
 
 #hero p{
-  color:rgb(14 0 101 / 80%);
-  font-size: 1.2rem;
-  font-weight: 500;
+  color:rgb(13, 0, 101);
+  font-size: 16px;
+  font-weight: 400;
 }
 #hero:before {
   content: "";
@@ -58,27 +62,55 @@ body {
   left: 0;
   right: 0;
 }
-#hero h1 {
+
+.banner-block{
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  align-items: center;
+  /* padding: 0 3rem; */
+}
+.banner-txt {
   margin: 0;
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 56px;
   color: #0e0065;
+  font-family: 'Inter', sans-serif;
 }
-#hero .mainTxt {
-  color: #0e0065;
-  margin: 15px 0 0 0;
-  font-size: 40px;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-}
-#hero .mainTxt span {
+.banner-txt-mark {
   color: #6c63ff;
   letter-spacing: 1px;
 }
+
 .profileDescription{
   font-size: 24px;
   margin: 1rem 0;
+}
+
+.resume-download-block{
+ 
+}
+
+.download-resume-btn{
+  background-color: #ffffff2b;
+  color: #0e0065;
+  display: flex;
+  align-items: center;
+  border: 3px dashed #0e006526;
+  border-radius: 200px;
+  padding: 2rem;
+  width: 200px;
+  height: 200px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  flex-shrink: 0;
+}
+.btn-outline-brand{
+  border: 1px solid #0e0065;
+  color: #0e0065;
+  background: white;
 }
 
 
