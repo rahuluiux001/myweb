@@ -1,17 +1,37 @@
 .common-navigation{
     justify-content: center;
-    /* margin-bottom: 2.5rem !important; */
+    margin-bottom: 2.5rem !important;
    }
    .common-navigation li{
     
   }
   .common-navigation li .common-nav-link{
+    font-size: 18px;
     background: transparent;
-    border:none;
+    border: 1px solid #0d00652c;
     font-weight: 500;
-    color: #0d006590;
+    color: #0d00652c;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-family: 'Quicksand', sans-serif;
+    transition: all ease 0.3s;
+  }
+  .common-navigation li .common-nav-link:hover{
+    transition: all ease 0.3s;
+    border: 1px solid #0e0065;
+    color: #0e0065;
   }
   .common-navigation li .common-nav-link.active{
+    transition: all ease 0.3s;
+    border: 1px solid #0e0065;
     background: transparent;
     color: #0e0065;
+  }
+  @media (max-width: 575.98px) {
+  .common-navigation {
+    justify-content: space-between;}
+    .common-navigation li{
+      margin-bottom: 1rem;
+    }
   }

@@ -1,19 +1,22 @@
 .banner-wrapper{
     /* text-align: center; */
-    /* margin: 3rem 0; */
+    margin-bottom: 1.5rem;
    }
    .banner-desc{
-    width: 600px;
+    /* width: 600px; */
     margin: auto;
     color: #0d006590;
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
    }
    .banner-caption{
     color: #0e0065;
-    font-size: 1.5rem;
+    font-size: 32px;
     font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
    }
    @media (max-width: 767.98px) {
-    .banner-desc{
+    /* .banner-desc{
       width: 90%;
-    }
+    } */
     }

@@ -39,11 +39,15 @@
   max-width: 55%;
 }
 .work-card-title{
-margin: 1rem 0;
-color: #0e0065;
+  font-size: 24px;
+  margin: 1rem 0;
+  color: #0e0065;
+  font-family: 'Quicksand', sans-serif;
 }
 .work-card-text{
-color: #0d006590;
+  font-size: 18px;
+  color: #0d006590;
+  font-family: 'Mulish', sans-serif;
 }
  .tools-used{
   
@@ -59,8 +63,10 @@ border-radius:5px;
 font-weight: 700;
  }
  .view-work{
+  font-size: 18px;
   text-decoration: none;
   color: #0e0065;
+  font-family: 'Mulish', sans-serif;
  }
 
  

@@ -42,3 +42,15 @@ color:#140288;
 fill:#140288;
 }
 
+@media (max-width: 575.98px) {
+.left-menus {
+  flex-direction: row;
+  margin: auto;
+}
+.left-menus li{
+  border-bottom: unset;
+}
+.menu-btns {
+  padding: 0rem 10px;
+}
+}
