@@ -46,10 +46,10 @@ padding-top: 2rem;
 }
 @media (max-width: 575.98px) {
   .contact-box {
-    padding: 3rem 3rem;
+    padding: 3rem 2rem;
   }
   .footer-sec{
     margin-bottom: 100px;
    }
-  .copy-right{flex-direction: column;}
+  .copy-right{flex-direction: column;line-height: 2;}
 }

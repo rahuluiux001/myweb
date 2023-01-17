@@ -73,6 +73,8 @@ font-weight: 700;
 
 
   @media (max-width: 575.98px) {
+    .container-innerPage{
+      padding: 2rem;}
     .work-card {
       flex-direction: column;
     }
