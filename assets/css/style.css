@@ -16,12 +16,19 @@ body {
   padding: 0;
 }
 .social-links a {
-  font-size: 24px;
-  display: inline-block;
+  font-size: 17px;
   color: #0e0065;
   line-height: 1;
-  margin-right: 20px;
+  margin-right: 10px;
   transition: 0.3s;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #0e0065;
+  border-radius: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+text-decoration: none;
 }
 .social-links a:hover {
   color: #6c63ff;

@@ -2,6 +2,24 @@
     /* text-align: center; */
     margin-bottom: 1.5rem;
    }
+   .banner-fancy-title{
+    padding-left: 100px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #6c63ff;
+    position: relative;
+    font-weight: 600;
+
+   }
+   .banner-fancy-title::before{position: absolute;
+    position: absolute;
+content: '';
+width: 80px;
+height: 2px;
+background-color: #6c63ff;
+left: -1px;
+top: 50%;
+   }
    .banner-desc{
     /* width: 600px; */
     margin: auto;
