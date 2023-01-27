@@ -69,9 +69,23 @@ font-weight: 700;
   font-family: 'Mulish', sans-serif;
  }
 
- 
-
-
+ /* search filter */
+.search-filter{
+position: relative;
+height: 100%;
+}
+.search-filter .search-input{
+  padding: 11px 1rem;
+border-radius: 7px;
+border: 1px solid #0e0065;
+}
+.search-filter .srch-icon{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right:10px;
+  z-index: 1;
+}
   @media (max-width: 575.98px) {
     .container-innerPage{
       padding: 2rem;}
